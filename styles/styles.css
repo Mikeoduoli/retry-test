@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: #c7c7c7;
+}
+
+.container {
+  height: 100%;
+}
+
+header {
+  background: #FE1010;
+  height: 60px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.left-bar-wrapper {
+  float: left;
+  display: flex;
+  position: relative;
+}
+
+.container .left-bar-wrapper .left-bar {
+  width: 60px;
+  height: 100vh;
+  background: #FE1010;
+  padding: 10px -10px;
+  margin-top: 5px;
+  font-size: 5px;
+}
+
+.container .left-bar-wrapper .left-bar ul {
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+.left-bar ul li a img {
+  color: white;
+}
+
+.body-sec {
+  margin-left: 90px;
+  margin-top: 20px;
+  height: 100%;
+  width: 70%;
+  padding: 0;
+  width: 90%;
+}
+
+.apply-button {
+  margin-left: 500px;
+  width: 70px;
+  margin-top: 3px;
+}
+
+img .img_logo {
+  width: 30px;
+  height: 40px;
+}
+
+.submit {
+  background-color: #FE1010;
+  color: white;
+  border-radius: 10px;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.ap-h2 {
+  text-align: center;
+}
+
+.ap-h4 {
+  padding-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.form-app {
+  margin-left: 20px;
+}
+
+.email {
+  width: 180px;
+  margin-bottom: 5px;
+}
+
+.phone {
+  margin-bottom: 5px;
+}
+
+.id-no {
+  margin-bottom: 5px;
+}
+
+.input-box input {
+  width: 30%;
+  height: 50%;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  padding: 5px 0;
+  margin: 10px 0;
+  padding-left: 9px;
+}
+
+.apply-button-2 {
+  margin-left: 560px;
+  margin-top: 20px;
+  height: 70%;
+}
+
+.apply-button-2 input {
+  width: 24%;
+  height: 30px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  background-color: #d35050;
+  color: #fff;
+}
+
+.flx {
+  display: flex;
+}
+
+.flx .to-issue {
+  width: 100%;
+}
+
+.user-type {
+  padding-left: 15px;
+}
+
+.to-flec {
+  display: flex;
+}/*# sourceMappingURL=styles.css.map */
